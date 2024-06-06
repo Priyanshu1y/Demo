@@ -5,12 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "author": "Priyanshu",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "prompt-sync": "^4.2.0"
   }
 }
